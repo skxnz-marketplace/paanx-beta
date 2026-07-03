@@ -17,34 +17,34 @@ export default function OrderSuccessPage() {
   });
 
   return (
-    <section className="rounded-lg border border-zinc-200 bg-white p-8 text-center">
+    <section className="glass-royal animate-rise overflow-hidden rounded-[4px] p-10 text-center text-ivory">
       <CheckCircle2
         size={48}
-        className="mx-auto text-emerald-900"
+        className="mx-auto text-gold-300"
         aria-hidden
       />
-      <h1 className="mt-4 text-3xl font-black text-emerald-950">
+      <h1 className="font-display mt-4 text-4xl font-black tracking-tight text-ivory">
         Order saved
       </h1>
-      <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-zinc-600">
+      <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-ivory/70">
         Your PAANX beta order was saved locally and the WhatsApp message was
         generated for confirmation.
       </p>
       {order ? (
-        <p className="mt-4 text-sm font-bold text-zinc-950">
+        <p className="mt-4 text-sm font-bold text-gold-200">
           Reference: {order.id}
         </p>
       ) : null}
       <div className="mt-6 flex justify-center gap-3">
         <Link
           href="/"
-          className="rounded-md bg-emerald-900 px-5 py-3 text-sm font-bold text-white"
+          className="btn-gold rounded-[4px] px-5 py-3 text-sm font-bold"
         >
           Continue shopping
         </Link>
         <Link
           href="/legal"
-          className="rounded-md border border-zinc-200 px-5 py-3 text-sm font-bold text-zinc-800"
+          className="rounded-[4px] border border-gold-400/30 px-5 py-3 text-sm font-bold text-ivory/80 transition hover:bg-gold-200/[0.05]"
         >
           Legal
         </Link>

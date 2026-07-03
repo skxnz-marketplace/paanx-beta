@@ -17,7 +17,7 @@ export default function BottomNav() {
   const { itemCount } = useCart();
 
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-zinc-200 bg-white px-2 py-2 md:hidden">
+    <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-gold-200/10 bg-carbon/85 px-2 pb-[env(safe-area-inset-bottom)] pt-2 backdrop-blur-lg backdrop-saturate-150 md:hidden">
       <div className="grid grid-cols-4">
         {items.map(({ href, label, Icon }) => {
           const active = pathname === href;
@@ -25,14 +25,22 @@ export default function BottomNav() {
             <Link
               key={href}
               href={href}
-              className={`relative flex flex-col items-center gap-1 rounded-md py-1.5 text-[11px] font-semibold ${
-                active ? "text-emerald-950" : "text-zinc-500"
+              className={`relative flex flex-col items-center gap-1 rounded-[4px] py-1.5 text-[11px] font-semibold transition ${
+                active ? "text-gold-100" : "text-gold-500"
               }`}
             >
-              <Icon size={19} aria-hidden />
+              <span
+                className={`flex h-8 w-12 items-center justify-center rounded-full transition ${
+                  active
+                    ? "bg-royal-700/50 ring-1 ring-gold-500/40"
+                    : "bg-transparent"
+                }`}
+              >
+                <Icon size={19} aria-hidden />
+              </span>
               <span>{label}</span>
               {href === "/cart" && itemCount > 0 ? (
-                <span className="absolute right-5 top-0 flex h-4 min-w-4 items-center justify-center rounded-full bg-emerald-900 px-1 text-[10px] text-white">
+                <span className="absolute right-4 top-0 flex h-4 min-w-4 items-center justify-center rounded-full bg-royal-700 px-1 text-[10px] font-bold text-gold-100 ring-2 ring-carbon">
                   {itemCount}
                 </span>
               ) : null}

@@ -1,14 +1,44 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbfcf8;
-  --foreground: #102019;
+  --background: #101211; /* Carbon powder */
+  --foreground: #e7d4bb; /* Almond light */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist);
+  --font-display: var(--font-display);
+
+  /* Plum wine ramp (royal-*) */
+  --color-royal-50: #f6eaed;
+  --color-royal-100: #e8ccd3;
+  --color-royal-200: #c99aa6;
+  --color-royal-300: #a66d7c;
+  --color-royal-400: #7c4653;
+  --color-royal-500: #632f3c;
+  --color-royal-600: #55272f;
+  --color-royal-700: #48252f; /* Plum wine */
+  --color-royal-800: #341a21;
+  --color-royal-900: #241216;
+  --color-royal-950: #170b0f;
+
+  /* Sandlewood → Almond ramp (gold-*) — brightened accents */
+  --color-gold-100: #f7eeda;
+  --color-gold-200: #ecd9bf; /* Almond light */
+  --color-gold-300: #dcc496;
+  --color-gold-400: #c6ac7f;
+  --color-gold-500: #b19a6a; /* Golden sandlewood, brighter */
+  --color-gold-600: #8f7d59;
+
+  /* Surfaces */
+  --color-carbon: #101211;
+  --color-ink: #0a0b0b;
+  --color-ivory: #e7d4bb;
+  --color-cream: #17181a;
+  --color-pearl: #f4e9d6;
+  --color-obsidian: #08090a;
 }
 
 * {
@@ -17,13 +47,26 @@
 
 html {
   background: var(--background);
+  scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100vh;
-  background: var(--background);
+  min-height: 100dvh;
   color: var(--foreground);
   font-family: var(--font-geist), Arial, Helvetica, sans-serif;
+  /* Carbon canvas with restrained plum depth — matte, no glow shine */
+  background:
+    radial-gradient(110% 50% at 84% -12%, rgba(72, 37, 47, 0.42), transparent 62%),
+    radial-gradient(90% 55% at 50% 120%, rgba(72, 37, 47, 0.22), transparent 64%),
+    #101211;
+  /* no fixed attachment — avoids full-page repaint on every scroll frame */
+}
+
+/* Sharp grotesk display */
+.font-display {
+  font-family: var(--font-display), "Arial Narrow", Arial, sans-serif;
+  letter-spacing: -0.02em;
+  font-optical-sizing: auto;
 }
 
 button,
@@ -37,7 +80,165 @@ select {
 .no-scrollbar {
   scrollbar-width: none;
 }
-
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(133, 120, 97, 0.25);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(133, 120, 97, 0.4);
+}
+
+/* ============ FROSTED GLASS (matte, no edge shine) ============ */
+/* Lighter blur radius + paint containment = far smoother scroll with many cards */
+.glass {
+  background: rgba(231, 212, 187, 0.05);
+  backdrop-filter: blur(12px) saturate(125%);
+  -webkit-backdrop-filter: blur(12px) saturate(125%);
+  border: 1px solid rgba(231, 212, 187, 0.1);
+  box-shadow: 0 20px 50px -28px rgba(0, 0, 0, 0.85);
+  contain: paint;
+}
+
+.glass-royal {
+  background:
+    radial-gradient(130% 100% at 12% 0%, rgba(72, 37, 47, 0.5), transparent 60%),
+    rgba(36, 18, 22, 0.55);
+  backdrop-filter: blur(14px) saturate(130%);
+  -webkit-backdrop-filter: blur(14px) saturate(130%);
+  border: 1px solid rgba(231, 212, 187, 0.12);
+  box-shadow: 0 30px 70px -34px rgba(0, 0, 0, 0.9);
+  contain: paint;
+}
+
+.lacquer {
+  background: linear-gradient(155deg, #341a21, #170b0f);
+  border: 1px solid rgba(231, 212, 187, 0.1);
+  box-shadow: 0 26px 60px -32px rgba(0, 0, 0, 0.9);
+}
+
+.ring-gold {
+  box-shadow: inset 0 0 0 1px rgba(133, 120, 97, 0.35);
+}
+
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(133, 120, 97, 0.45),
+    transparent
+  );
+}
+
+/* ============ BUTTONS (matte, no gloss sweep) ============ */
+.btn-royal {
+  color: #f4e9d6;
+  background: linear-gradient(165deg, #55272f 0%, #341a21 100%);
+  border: 1px solid rgba(231, 212, 187, 0.16);
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.12s ease;
+}
+.btn-royal:hover {
+  background: linear-gradient(165deg, #632f3c 0%, #3d1f27 100%);
+  border-color: rgba(133, 120, 97, 0.55);
+}
+.btn-royal:active {
+  transform: translateY(1px) scale(0.99);
+}
+.btn-royal:disabled {
+  background: #2a2622;
+  color: rgba(231, 212, 187, 0.45);
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+.btn-gold {
+  color: #241216;
+  background: #e7d4bb;
+  border: 1px solid rgba(133, 120, 97, 0.5);
+  transition:
+    background 0.2s ease,
+    transform 0.12s ease;
+}
+.btn-gold:hover {
+  background: #f4e9d6;
+}
+.btn-gold:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* ============ MOTION ============ */
+.card-lift {
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease;
+  will-change: transform;
+}
+@media (hover: hover) {
+  .card-lift:hover {
+    transform: translateY(-4px);
+    border-color: rgba(133, 120, 97, 0.5);
+  }
+}
+
+/* Scroll reveal (Reveal.tsx via IntersectionObserver) */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+.reveal-pop {
+  transform: translateY(22px) scale(0.96);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise {
+  animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .card-lift,
+  .btn-royal,
+  .btn-gold,
+  .animate-rise {
+    transition: none;
+    animation: none;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

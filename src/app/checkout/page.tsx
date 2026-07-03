@@ -81,11 +81,11 @@ export default function CheckoutPage() {
 
   if (lines.length === 0) {
     return (
-      <section className="rounded-lg border border-zinc-200 bg-white p-8 text-center">
-        <h1 className="text-3xl font-black text-emerald-950">
+      <section className="rounded-[4px] border border-gold-200/10 glass p-10 text-center">
+        <h1 className="font-display text-4xl font-black tracking-tight text-gold-100">
           Nothing to checkout
         </h1>
-        <p className="mt-3 text-sm text-zinc-600">
+        <p className="mt-3 text-sm text-gold-200/65">
           Your cart is empty. Add products before placing an order.
         </p>
       </section>
@@ -94,66 +94,66 @@ export default function CheckoutPage() {
 
   return (
     <div className="grid gap-5 lg:grid-cols-[1fr_360px]">
-      <section className="rounded-lg border border-zinc-200 bg-white p-5">
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-700">
+      <section className="rounded-[4px] border border-gold-200/10 glass p-5 md:p-6">
+        <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-gold-500">
           Checkout
         </p>
-        <h1 className="mt-2 text-3xl font-black text-emerald-950">
+        <h1 className="font-display mt-1.5 text-4xl font-black tracking-tight text-gold-100">
           Delivery details
         </h1>
         {hasRestrictedItem ? (
-          <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm font-semibold text-amber-900">
+          <div className="mt-4 rounded-[4px] border border-gold-400/40 bg-royal-700/40 p-4 text-sm font-semibold text-gold-100">
             This order contains 18+ restricted items. Confirm age eligibility and
             keep valid ID available at delivery.
           </div>
         ) : null}
         <form onSubmit={handleSubmit} className="mt-5 space-y-4">
-          <label className="block text-sm font-semibold text-zinc-800">
+          <label className="block text-sm font-semibold text-gold-100">
             Name
             <input
               required
               name="name"
-              className="mt-2 h-11 w-full rounded-md border border-zinc-200 px-3 outline-none focus:border-emerald-900"
+              className="mt-2 h-11 w-full rounded-[4px] border border-gold-200/12 bg-gold-200/[0.07] px-3 text-gold-100 outline-none transition focus:border-gold-400/70 focus:bg-gold-200/[0.1] focus:ring-4 focus:ring-gold-400/15"
             />
           </label>
-          <label className="block text-sm font-semibold text-zinc-800">
+          <label className="block text-sm font-semibold text-gold-100">
             Phone
             <input
               required
               name="phone"
               inputMode="tel"
-              className="mt-2 h-11 w-full rounded-md border border-zinc-200 px-3 outline-none focus:border-emerald-900"
+              className="mt-2 h-11 w-full rounded-[4px] border border-gold-200/12 bg-gold-200/[0.07] px-3 text-gold-100 outline-none transition focus:border-gold-400/70 focus:bg-gold-200/[0.1] focus:ring-4 focus:ring-gold-400/15"
             />
           </label>
-          <label className="block text-sm font-semibold text-zinc-800">
+          <label className="block text-sm font-semibold text-gold-100">
             Address
             <textarea
               required
               name="address"
               rows={4}
-              className="mt-2 w-full rounded-md border border-zinc-200 px-3 py-3 outline-none focus:border-emerald-900"
+              className="mt-2 w-full rounded-[4px] border border-gold-200/12 bg-gold-200/[0.07] px-3 py-3 text-gold-100 outline-none transition focus:border-gold-400/70 focus:bg-gold-200/[0.1] focus:ring-4 focus:ring-gold-400/15"
             />
           </label>
-          <label className="block text-sm font-semibold text-zinc-800">
+          <label className="block text-sm font-semibold text-gold-100">
             Notes
             <textarea
               name="notes"
               rows={3}
-              className="mt-2 w-full rounded-md border border-zinc-200 px-3 py-3 outline-none focus:border-emerald-900"
+              className="mt-2 w-full rounded-[4px] border border-gold-200/12 bg-gold-200/[0.07] px-3 py-3 text-gold-100 outline-none transition focus:border-gold-400/70 focus:bg-gold-200/[0.1] focus:ring-4 focus:ring-gold-400/15"
             />
           </label>
           <fieldset className="space-y-2">
-            <legend className="text-sm font-semibold text-zinc-800">
+            <legend className="text-sm font-semibold text-gold-100">
               Payment mode
             </legend>
             <div className="grid grid-cols-2 gap-2">
               {["COD", "UPI on delivery"].map((mode) => (
                 <label
                   key={mode}
-                  className={`flex cursor-pointer items-center justify-center rounded-md border px-3 py-3 text-sm font-bold ${
+                  className={`flex cursor-pointer items-center justify-center rounded-[3px] border px-3 py-3 text-sm font-bold ${
                     paymentMode === mode
-                      ? "border-emerald-900 bg-emerald-50 text-emerald-950"
-                      : "border-zinc-200 text-zinc-600"
+                      ? "border-gold-500/70 bg-royal-700/55 text-gold-100"
+                      : "border-gold-200/12 bg-gold-200/[0.05] text-gold-500"
                   }`}
                 >
                   <input
@@ -171,25 +171,25 @@ export default function CheckoutPage() {
           </fieldset>
           <button
             type="submit"
-            className="h-12 w-full rounded-md bg-emerald-900 text-sm font-bold text-white"
+            className="btn-royal h-12 w-full rounded-[4px] text-sm font-bold"
           >
             Place order on WhatsApp
           </button>
         </form>
       </section>
-      <aside className="h-fit rounded-lg border border-zinc-200 bg-white p-4">
-        <h2 className="text-lg font-bold text-zinc-950">Items</h2>
+      <aside className="h-fit rounded-[4px] border border-gold-200/10 glass p-5 lg:sticky lg:top-24">
+        <h2 className="font-display text-xl font-black tracking-tight text-gold-100">Items</h2>
         <div className="mt-3 space-y-3">
           {lines.map(({ product, quantity }) => (
             <div key={product.id} className="flex justify-between gap-3 text-sm">
-              <span className="text-zinc-600">
+              <span className="text-gold-200/65">
                 {product.name} x {quantity}
               </span>
               <strong>{formatPrice(product.price * quantity)}</strong>
             </div>
           ))}
         </div>
-        <div className="mt-4 flex justify-between border-t border-zinc-200 pt-4 text-sm">
+        <div className="mt-4 flex justify-between border-t border-gold-200/10 pt-4 text-sm">
           <span>Subtotal</span>
           <strong>{formatPrice(subtotal)}</strong>
         </div>

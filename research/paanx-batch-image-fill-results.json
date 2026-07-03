@@ -1,0 +1,938 @@
+[
+  {
+    "slug": "coca-cola-750ml",
+    "status": "image_not_found",
+    "query": "Coca-Cola Soft Drink 750 ml PET Coca-Cola product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "coca-cola-can-300ml",
+    "status": "image_not_found",
+    "query": "Coca-Cola Can 300 ml can Coca-Cola product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "thums-up-750ml",
+    "status": "image_not_found",
+    "query": "Thums Up Strong Soft Drink 750 ml PET Thums Up product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "thums-up-can-300ml",
+    "status": "image_not_found",
+    "query": "Thums Up Can 300 ml can Thums Up product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pepsi-750ml",
+    "status": "image_not_found",
+    "query": "Pepsi Soft Drink 750 ml PET Pepsi product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pepsi-can-250ml",
+    "status": "image_not_found",
+    "query": "Pepsi Can 250 ml can Pepsi product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "mountain-dew-750ml",
+    "status": "image_not_found",
+    "query": "Mountain Dew Soft Drink 750 ml PET Mountain Dew product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "7up-750ml",
+    "status": "image_not_found",
+    "query": "7UP Lemon Soft Drink 750 ml PET 7UP product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "mirinda-750ml",
+    "status": "image_not_found",
+    "query": "Mirinda Orange Soft Drink 750 ml PET Mirinda product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "sting-energy-250ml",
+    "status": "image_not_found",
+    "query": "Sting Energy Drink 250 ml PET Sting product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "red-bull-250ml",
+    "status": "image_not_found",
+    "query": "Red Bull Energy Drink 250 ml can Red Bull product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "monster-energy-350ml",
+    "status": "image_not_found",
+    "query": "Monster Energy Drink 350 ml can Monster product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "paper-boat-aamras-200ml",
+    "status": "image_not_found",
+    "query": "Paper Boat Aamras 200 ml pouch Paper Boat product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "real-mixed-fruit-1l",
+    "status": "image_not_found",
+    "query": "Real Mixed Fruit Juice 1 L tetra pack Real product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "tropicana-orange-1l",
+    "status": "image_not_found",
+    "query": "Tropicana Orange Delight 1 L tetra pack Tropicana product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "amul-kool-kesar-180ml",
+    "status": "image_not_found",
+    "query": "Amul Kool Kesar Flavoured Milk 180 ml bottle Amul product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "amul-kool-cafe-200ml",
+    "status": "image_not_found",
+    "query": "Amul Kool Cafe Cold Coffee 200 ml can Amul product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "coca-cola-250ml",
+    "status": "image_not_found",
+    "query": "Coca-Cola Soft Drink 250 ml PET Coca-Cola product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "thums-up-250ml",
+    "status": "image_not_found",
+    "query": "Thums Up Soft Drink 250 ml PET Thums Up product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bisleri-1l",
+    "status": "search_failed",
+    "query": "Bisleri Packaged Drinking Water 1 L bottle Bisleri product",
+    "notes": "URI malformed"
+  },
+  {
+    "slug": "bisleri-500ml",
+    "status": "image_not_found",
+    "query": "Bisleri Packaged Drinking Water 500 ml bottle Bisleri product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bisleri-2l",
+    "status": "image_not_found",
+    "query": "Bisleri Packaged Drinking Water 2 L bottle Bisleri product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "kinley-1l",
+    "status": "image_not_found",
+    "query": "Kinley Packaged Drinking Water 1 L bottle Kinley product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "aquafina-1l",
+    "status": "image_not_found",
+    "query": "Aquafina Packaged Drinking Water 1 L bottle Aquafina product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bisleri-soda-750ml",
+    "status": "image_not_found",
+    "query": "Bisleri Soda 750 ml bottle Bisleri product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "kinley-soda-750ml",
+    "status": "image_not_found",
+    "query": "Kinley Soda 750 ml bottle Kinley product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "schweppes-tonic-300ml",
+    "status": "image_not_found",
+    "query": "Schweppes Tonic Water 300 ml bottle Schweppes product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "lays-magic-masala-48g",
+    "status": "search_failed",
+    "query": "Lay's India's Magic Masala 48 g Lay's product",
+    "notes": "URI malformed"
+  },
+  {
+    "slug": "lays-classic-salted-48g",
+    "status": "image_not_found",
+    "query": "Lay's Classic Salted 48 g Lay's product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "lays-american-cream-onion-48g",
+    "status": "image_not_found",
+    "query": "Lay's American Style Cream & Onion 48 g Lay's product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "kurkure-masala-munch-75g",
+    "status": "image_not_found",
+    "query": "Kurkure Masala Munch 75 g Kurkure product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "kurkure-green-chutney-75g",
+    "status": "image_not_found",
+    "query": "Kurkure Green Chutney Rajasthani Style 75 g Kurkure product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bingo-mad-angles-achaari-masti-66g",
+    "status": "image_not_found",
+    "query": "Bingo! Mad Angles Achaari Masti 66 g Bingo! product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bingo-tedhe-medhe-80g",
+    "status": "image_not_found",
+    "query": "Bingo! Tedhe Medhe Masala Tadka 80 g Bingo! product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "uncle-chipps-spicy-treat-50g",
+    "status": "image_not_found",
+    "query": "Uncle Chipps Spicy Treat 50 g Uncle Chipps product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "too-yumm-multigrain-chips-54g",
+    "status": "image_not_found",
+    "query": "Too Yumm! Multigrain Chips Dahi Papdi Chaat 54 g Too Yumm! product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pringles-original-107g",
+    "status": "image_not_found",
+    "query": "Pringles Original 107 g can Pringles product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "doritos-nacho-cheese-70g",
+    "status": "image_not_found",
+    "query": "Doritos Nacho Cheese 70 g Doritos product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "crax-corn-rings-72g",
+    "status": "image_not_found",
+    "query": "Crax Corn Rings Masala 72 g Crax product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "act-ii-butter-popcorn-59g",
+    "status": "image_not_found",
+    "query": "Act II Instant Popcorn Butter Delite 59 g Act II product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cornitos-peri-peri-55g",
+    "status": "image_not_found",
+    "query": "Cornitos Nacho Crisps Peri Peri 55 g Cornitos product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "peppy-cheese-balls-60g",
+    "status": "image_not_found",
+    "query": "Peppy Cheese Balls 60 g Peppy product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "haldirams-aloo-bhujia-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Aloo Bhujia 200 g Haldiram's product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "haldirams-bhujia-sev-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Bhujia Sev 200 g Haldiram's product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "haldirams-moong-dal-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Moong Dal 200 g Haldiram's product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "haldirams-khatta-meetha-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Khatta Meetha 200 g Haldiram's product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "haldirams-navrattan-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Navrattan Mixture 200 g Haldiram's product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bikaji-bikaneri-bhujia-200g",
+    "status": "image_not_found",
+    "query": "Bikaji Bikaneri Bhujia 200 g Bikaji product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bikaji-soya-sticks-200g",
+    "status": "image_not_found",
+    "query": "Bikaji Soya Sticks 200 g Bikaji product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "balaji-wafers-chataka-pataka-65g",
+    "status": "image_not_found",
+    "query": "Balaji Chataka Pataka Namkeen 65 g Balaji product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bikanervala-bhujia-200g",
+    "status": "image_not_found",
+    "query": "Bikanervala Bikaneri Bhujia 200 g Bikanervala product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "haldirams-salted-peanuts-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Salted Peanuts 200 g Haldiram's product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "haldirams-nut-cracker-200g",
+    "status": "image_not_found",
+    "query": "Haldiram's Nut Cracker 200 g Haldiram's product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bikaji-funkeen-chana-jor-150g",
+    "status": "image_not_found",
+    "query": "Bikaji Chana Jor Garam 150 g Bikaji product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "parle-g-original-70g",
+    "status": "image_not_found",
+    "query": "Parle-G Original Glucose Biscuits 70 g Parle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "parle-hide-seek-chocolate-100g",
+    "status": "image_not_found",
+    "query": "Parle Hide & Seek Chocolate Chip Cookies 100 g Parle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "britannia-good-day-cashew-75g",
+    "status": "image_not_found",
+    "query": "Britannia Good Day Cashew Cookies 75 g Britannia product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "britannia-marie-gold-120g",
+    "status": "image_not_found",
+    "query": "Britannia Marie Gold Tea-Time Biscuits 120 g Britannia product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "oreo-vanilla-creme-43g",
+    "status": "image_not_found",
+    "query": "Cadbury Oreo Vanilla Creme Biscuits 43 g Oreo product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "britannia-bourbon-100g",
+    "status": "image_not_found",
+    "query": "Britannia Bourbon Chocolate Cream Biscuits 100 g Britannia product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "parle-monaco-classic-63g",
+    "status": "image_not_found",
+    "query": "Parle Monaco Classic Salted Biscuits 63 g Parle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "parle-krackjack-60g",
+    "status": "image_not_found",
+    "query": "Parle KrackJack Sweet & Salty Biscuits 60 g Parle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "sunfeast-dark-fantasy-choco-fills-75g",
+    "status": "image_not_found",
+    "query": "Sunfeast Dark Fantasy Choco Fills 75 g Sunfeast product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "britannia-50-50-maska-chaska-60g",
+    "status": "image_not_found",
+    "query": "Britannia 50-50 Maska Chaska 60 g Britannia product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cadbury-dairy-milk-23g",
+    "status": "image_not_found",
+    "query": "Cadbury Dairy Milk Chocolate Bar 23 g Cadbury product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cadbury-dairy-milk-silk-60g",
+    "status": "image_not_found",
+    "query": "Cadbury Dairy Milk Silk 60 g Cadbury product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cadbury-5-star-40g",
+    "status": "image_not_found",
+    "query": "Cadbury 5 Star Chocolate Bar 40 g Cadbury product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cadbury-perk-13g",
+    "status": "image_not_found",
+    "query": "Cadbury Perk Wafer Chocolate 13 g Cadbury product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "nestle-munch-18g",
+    "status": "image_not_found",
+    "query": "Nestle Munch Wafer Chocolate 18.7 g Nestle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "nestle-kitkat-4-finger-38g",
+    "status": "image_not_found",
+    "query": "Nestle KitKat 4-Finger 38.5 g Nestle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "snickers-peanut-45g",
+    "status": "image_not_found",
+    "query": "Snickers Peanut Chocolate Bar 45 g Snickers product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "nestle-milkybar-25g",
+    "status": "image_not_found",
+    "query": "Nestle Milkybar White Chocolate 25 g Nestle product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cadbury-gems-17g",
+    "status": "image_not_found",
+    "query": "Cadbury Gems Chocolate Buttons 17.8 g Cadbury product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cadbury-eclairs-pouch",
+    "status": "image_not_found",
+    "query": "Cadbury Choclairs Gold Pouch 50 pcs pouch Cadbury product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "center-fresh-mint-pouch",
+    "status": "image_not_found",
+    "query": "Center Fresh Spearmint Chewing Gum 26 g pouch Center Fresh product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "center-fruit-pouch",
+    "status": "image_not_found",
+    "query": "Center Fruit Liquid-Filled Gum 26 g pouch Center Fruit product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "orbit-spearmint-22g",
+    "status": "image_not_found",
+    "query": "Orbit Sugar-Free Spearmint Gum 22 g pack Orbit product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "mentos-mint-roll",
+    "status": "image_not_found",
+    "query": "Mentos Fresh Mint Roll 36 g roll Mentos product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pulse-kachcha-aam-candy",
+    "status": "image_not_found",
+    "query": "Pulse Kachcha Aam Candy 1 pc / strip Pulse product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "happydent-white-pouch",
+    "status": "image_not_found",
+    "query": "Happydent White Xylitol Gum 26 g pouch Happydent product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "boomer-strawberry-strip",
+    "status": "image_not_found",
+    "query": "Boomer Strawberry Bubble Gum 1 pc Boomer product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "alpenliebe-gold-pouch",
+    "status": "image_not_found",
+    "query": "Alpenliebe Gold Caramel Candy Pouch 38 pcs pouch Alpenliebe product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "chupa-chups-lollipop",
+    "status": "image_not_found",
+    "query": "Chupa Chups Assorted Lollipop 1 pc Chupa Chups product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "polo-mint-roll",
+    "status": "image_not_found",
+    "query": "Nestle Polo The Mint With The Hole 30 g roll Polo product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pass-pass-classic-pouch",
+    "status": "image_not_found",
+    "query": "Pass Pass Mouth Freshener Pouch 25 g pouch Pass Pass product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "rajnigandha-pearls-tin",
+    "status": "image_not_found",
+    "query": "Rajnigandha Pearls Silver Coated Elaichi 6.2 g tin Rajnigandha product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "baba-elaichi-pouch",
+    "status": "image_not_found",
+    "query": "Baba Elaichi Mouth Freshener 10 g pouch Baba product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "sweet-saunf-100g",
+    "status": "image_not_found",
+    "query": "Sweet Saunf Sugar Coated Fennel 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "roasted-saunf-100g",
+    "status": "image_not_found",
+    "query": "Roasted Saunf Plain Fennel Seeds 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "green-elaichi-50g",
+    "status": "image_not_found",
+    "query": "Green Elaichi Cardamom Pack 50 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "mukhwas-mix-100g",
+    "status": "image_not_found",
+    "query": "Mukhwas Mix Assorted Mouth Freshener 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "chandan-supari-mix-100g",
+    "status": "image_not_found",
+    "query": "Chandan Mukhwas Sandal Flavour Mix 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "betel-leaves-banarasi-10pc",
+    "status": "image_not_found",
+    "query": "Banarasi Paan Leaves Betel Leaves 10 leaves Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "betel-leaves-calcutta-10pc",
+    "status": "image_not_found",
+    "query": "Calcutta Meetha Paan Leaves 10 leaves Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "gulkand-200g",
+    "status": "image_not_found",
+    "query": "Gulkand Rose Petal Preserve 200 g jar Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "kattha-paste-50g",
+    "status": "image_not_found",
+    "query": "Kattha Catechu Paste 50 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "chuna-paste-50g",
+    "status": "image_not_found",
+    "query": "Chuna Edible Slaked Lime Paste 50 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "paan-cherry-100g",
+    "status": "image_not_found",
+    "query": "Paan Cherry Candied Cherry Topping 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "tutti-frutti-100g",
+    "status": "image_not_found",
+    "query": "Tutti Frutti Candied Papaya Bits 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "coconut-bura-100g",
+    "status": "image_not_found",
+    "query": "Sweet Coconut Bura Grated Coconut Mix 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "nizam-sweet-supari-pouch",
+    "status": "image_not_found",
+    "query": "Nizam Sweet Supari Pouch 10 pouches strip Nizam product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bolero-sweet-supari",
+    "status": "image_not_found",
+    "query": "Bolero Sweet Supari 10 pouches strip Bolero product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "cutting-supari-100g",
+    "status": "image_not_found",
+    "query": "Cutting Supari Sliced Areca Nut 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bhuni-supari-100g",
+    "status": "search_failed",
+    "query": "Bhuni Supari Roasted Areca Nut 100 g pack Loose / Local product",
+    "notes": "URI malformed"
+  },
+  {
+    "slug": "flavoured-saunf-mix-100g",
+    "status": "image_not_found",
+    "query": "Flavoured Saunf Mix Rainbow Saunf 100 g pack Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "rajnigandha-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Rajnigandha Pan Masala pouch Rajnigandha product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "rajnigandha-pan-masala-tin",
+    "status": "image_not_found",
+    "query": "Rajnigandha Pan Masala Tin 100 g tin Rajnigandha product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pan-bahar-pouch",
+    "status": "image_not_found",
+    "query": "Pan Bahar Pan Masala pouch Pan Bahar product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pan-parag-pouch",
+    "status": "image_not_found",
+    "query": "Pan Parag Pan Masala pouch Pan Parag product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "vimal-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Vimal Pan Masala pouch Vimal product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "shikhar-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Shikhar Pan Masala pouch Shikhar product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "manikchand-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Manikchand Pan Masala pouch Manikchand product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "rmd-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "RMD Pan Masala pouch RMD product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "tulsi-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Tulsi Pan Masala pouch Tulsi product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "kuber-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Kuber Pan Masala pouch Kuber product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "kamla-pasand-pouch",
+    "status": "image_not_found",
+    "query": "Kamla Pasand Pan Masala pouch Kamla Pasand product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "rajshree-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Rajshree Pan Masala pouch Rajshree product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "goa-1000-pan-masala",
+    "status": "image_not_found",
+    "query": "Goa 1000 Pan Masala pouch Goa product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "madhur-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Madhur Pan Masala pouch Madhur product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "sir-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Sir Pan Masala pouch Sir product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "miraj-pan-masala-pouch",
+    "status": "image_not_found",
+    "query": "Miraj Pan Masala pouch Miraj product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "classic-milds-pack-20",
+    "status": "image_not_found",
+    "query": "Classic Milds Pack of 20 Classic ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "classic-connect-pack-20",
+    "status": "image_not_found",
+    "query": "Classic Connect Pack of 20 Classic ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "gold-flake-kings-pack-20",
+    "status": "image_not_found",
+    "query": "Gold Flake Kings Pack of 20 Gold Flake ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "gold-flake-premium-pack-10",
+    "status": "image_not_found",
+    "query": "Gold Flake Premium Pack of 10 Gold Flake ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "wills-navy-cut-pack-10",
+    "status": "image_not_found",
+    "query": "Wills Navy Cut Pack of 10 Wills ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "insignia-pack-20",
+    "status": "image_not_found",
+    "query": "Insignia Pack of 20 ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "india-kings-pack-20",
+    "status": "image_not_found",
+    "query": "India Kings Pack of 20 ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "american-club-pack-20",
+    "status": "image_not_found",
+    "query": "American Club Pack of 20 ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "players-gold-leaf-pack-20",
+    "status": "image_not_found",
+    "query": "Players Gold Leaf Pack of 20 Players GPI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "four-square-pack-10",
+    "status": "image_not_found",
+    "query": "Four Square Pack of 10 Four Square GPI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "red-white-pack-10",
+    "status": "image_not_found",
+    "query": "Red & White Pack of 10 Red & White GPI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "marlboro-red-pack-20",
+    "status": "image_not_found",
+    "query": "Marlboro Red Pack of 20 Marlboro PMI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "marlboro-gold-pack-20",
+    "status": "image_not_found",
+    "query": "Marlboro Gold Pack of 20 Marlboro PMI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "marlboro-advance-pack-20",
+    "status": "image_not_found",
+    "query": "Marlboro Advance Compact Pack of 20 Marlboro PMI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cavanders-pack-10",
+    "status": "image_not_found",
+    "query": "Cavanders Pack of 10 Cavanders GPI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "stellar-slims-pack-20",
+    "status": "image_not_found",
+    "query": "Stellar Ultra Slims Pack of 20 Stellar GPI product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "esse-lights-pack-20",
+    "status": "image_not_found",
+    "query": "Esse Lights Super Slims Pack of 20 Esse KT&G product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "dunhill-switch-pack-20",
+    "status": "image_not_found",
+    "query": "Dunhill Pack of 20 Dunhill BAT product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "capstan-pack-10",
+    "status": "image_not_found",
+    "query": "Capstan Pack of 10 Capstan ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "flake-excel-pack-10",
+    "status": "image_not_found",
+    "query": "Flake Excel Pack of 10 Flake ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "scissors-pack-10",
+    "status": "image_not_found",
+    "query": "Scissors Pack of 10 Scissors ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "bristol-pack-10",
+    "status": "image_not_found",
+    "query": "Bristol Pack of 10 Bristol ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "chaini-khaini-pouch",
+    "status": "image_not_found",
+    "query": "Chaini Khaini pouch Chaini Khaini product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "hans-chhap-zarda",
+    "status": "image_not_found",
+    "query": "Hans Chhap Zarda tin Hans Chhap product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "baba-120-zarda",
+    "status": "image_not_found",
+    "query": "Baba 120 Zarda tin Baba product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "tulsi-mix-pouch",
+    "status": "image_not_found",
+    "query": "Tulsi Mix pouch Tulsi product",
+    "notes": "fetch failed"
+  },
+  {
+    "slug": "afzal-pan-ras-flavour-50g",
+    "status": "image_not_found",
+    "query": "Afzal Pan Ras Hookah Flavour 50 g pack Afzal product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "soex-herbal-double-apple-50g",
+    "status": "image_not_found",
+    "query": "Soex Herbal Hookah Flavour Double Apple 50 g pack Soex product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "hookah-coal-pack",
+    "status": "image_not_found",
+    "query": "Hookah Charcoal Quick-Light Coals 10 pcs roll Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "ship-matchbox-single",
+    "status": "image_not_found",
+    "query": "Ship Safety Matches 1 box Ship product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "homelites-matchbox-single",
+    "status": "image_not_found",
+    "query": "Homelites Safety Matches 1 box Homelites ITC product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "pocket-lighter-standard",
+    "status": "image_not_found",
+    "query": "Pocket Gas Lighter Standard Refillable 1 pc Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "cricket-lighter-original",
+    "status": "image_not_found",
+    "query": "Cricket Original Pocket Lighter 1 pc Cricket product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "lighter-refill-gas-can",
+    "status": "image_not_found",
+    "query": "Lighter Refill Gas Can 1 can Loose / Local product",
+    "notes": "No usable candidates"
+  },
+  {
+    "slug": "rolling-paper-standard",
+    "status": "image_not_found",
+    "query": "Rolling Paper Standard Booklet 1 booklet Loose / Local product",
+    "notes": "No usable candidates"
+  }
+]

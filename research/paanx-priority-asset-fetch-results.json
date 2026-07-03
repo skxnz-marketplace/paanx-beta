@@ -1,0 +1,408 @@
+﻿[
+    {
+        "slug":  "coca-cola-750ml",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "coca-cola-can-300ml",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "thums-up-750ml",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "sprite-750ml",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "fanta-750ml",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "maaza-600ml",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "pepsi-750ml",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "mountain-dew-750ml",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "sting-energy-250ml",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "red-bull-250ml",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "bisleri-1l",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "kinley-1l",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "lays-magic-masala-48g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "lays-classic-salted-48g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "lays-american-cream-onion-48g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "kurkure-masala-munch-75g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "bingo-mad-angles-achaari-masti-66g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "bingo-tedhe-medhe-80g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "uncle-chipps-spicy-treat-50g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "pringles-original-107g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "haldirams-aloo-bhujia-200g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "haldirams-moong-dal-200g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "parle-g-original-70g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "parle-hide-seek-chocolate-100g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "britannia-good-day-cashew-75g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "britannia-marie-gold-120g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "oreo-vanilla-creme-43g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "britannia-bourbon-100g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "cadbury-dairy-milk-23g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "cadbury-5-star-40g",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "center-fresh-mint-pouch",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "center-fruit-pouch",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "orbit-spearmint-22g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "mentos-mint-roll",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "pulse-kachcha-aam-candy",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "happydent-white-pouch",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "polo-mint-roll",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "pass-pass-classic-pouch",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "rajnigandha-pearls-tin",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "baba-elaichi-pouch",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "kattha-paste-50g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "tutti-frutti-100g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "cutting-supari-100g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "flavoured-saunf-mix-100g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "rajnigandha-pan-masala-pouch",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "rajnigandha-pan-masala-tin",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "pan-bahar-pouch",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "vimal-pan-masala-pouch",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "classic-milds-pack-20",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "gold-flake-kings-pack-20",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "wills-navy-cut-pack-10",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    },
+    {
+        "slug":  "marlboro-red-pack-20",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "chaini-khaini-pouch",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "hans-chhap-zarda",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "afzal-pan-ras-flavour-50g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "soex-herbal-double-apple-50g",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "ship-matchbox-single",
+        "status":  "download_failed",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "The remote server returned an error: (503) Server Unavailable."
+    },
+    {
+        "slug":  "pocket-lighter-standard",
+        "status":  "source_not_found",
+        "sourceUrl":  "",
+        "image":  "",
+        "notes":  "No matching Open Food Facts image result"
+    }
+]

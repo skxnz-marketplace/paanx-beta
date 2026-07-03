@@ -1,20 +1,50 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Archivo, Geist } from "next/font/google";
 import AgeGate from "@/components/AgeGate";
 import BottomNav from "@/components/BottomNav";
 import { CartProvider } from "@/components/CartProvider";
 import FloatingCart from "@/components/FloatingCart";
 import Header from "@/components/Header";
+import SideOrnament from "@/components/SideOrnament";
 import "./globals.css";
 
 const geist = Geist({
   variable: "--font-geist",
   subsets: ["latin"],
+  display: "swap",
+});
+
+// Sharp grotesk display for headings/wordmark — luxe, not editorial-serif.
+const archivo = Archivo({
+  variable: "--font-display",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
-  title: "PAANX Beta",
-  description: "Premium paan, mukhwas, ingredients, and essentials.",
+  title: "PAANX Beta · Premium Paan-Shop Quick Commerce | Delhi NCR",
+  description:
+    "PAANX Beta: premium paan-shop essentials, snacks, drinks & local favourites. Curated catalog, fast local ordering, age-aware checkout. Delhi NCR private beta.",
+  applicationName: "PAANX",
+  keywords: [
+    "paan shop online",
+    "quick commerce Delhi",
+    "mukhwas",
+    "cold drinks delivery",
+    "snacks delivery Delhi NCR",
+  ],
+  openGraph: {
+    title: "PAANX Beta · Premium Paan-Shop Quick Commerce",
+    description:
+      "Premium paan-shop essentials, snacks, drinks & local favourites. Delhi NCR private beta.",
+    type: "website",
+    images: ["/brand/paanx-emblem.png"],
+  },
+  icons: {
+    icon: "/brand/paanx-emblem.png",
+    apple: "/brand/paanx-emblem.png",
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +53,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geist.variable} antialiased`}>
+    <html
+      lang="en"
+      className={`${geist.variable} ${archivo.variable} antialiased`}
+    >
       <body>
         <CartProvider>
+          <SideOrnament />
           <Header />
-          <main className="mx-auto w-full max-w-7xl px-4 pb-28 pt-5 md:pb-16">
+          <main className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-28 pt-5 md:pb-16">
             {children}
           </main>
           <FloatingCart />

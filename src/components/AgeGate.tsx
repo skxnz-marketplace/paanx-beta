@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import { ShieldCheck } from "lucide-react";
+import PaanxLogo from "@/components/brand/PaanxLogo";
 import { usePathname } from "next/navigation";
 import { useMemo, useState } from "react";
 import {
   getCategoryBySlug,
-  getProductBySlug,
   restrictedCategories,
-} from "@/data/products";
+} from "@/data/categories";
+import { getProductBySlug } from "@/data/products";
 
 const storageKey = "paanx-age-confirmed-v01";
 
@@ -46,29 +48,44 @@ export default function AgeGate() {
   if (!requiresGate || confirmed) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end bg-emerald-950/40 p-4 backdrop-blur-sm sm:items-center sm:justify-center">
-      <section className="w-full rounded-lg border border-emerald-100 bg-white p-5 shadow-2xl sm:max-w-md">
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-700">
-          Age restricted
+    <div className="fixed inset-0 z-50 flex items-end bg-royal-950/55 p-4 backdrop-blur-md sm:items-center sm:justify-center">
+      <section
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="agegate-title"
+        className="glass-royal animate-rise w-full rounded-[4px] p-6 text-ivory sm:max-w-md"
+      >
+        <div className="mb-5 flex items-center justify-between">
+          <PaanxLogo variant="mark" />
+          <span className="flex h-11 w-11 items-center justify-center rounded-[4px] bg-white/10 text-gold-200 ring-1 ring-gold-400/30">
+            <ShieldCheck size={22} aria-hidden />
+          </span>
+        </div>
+        <p className="mt-4 text-xs font-bold uppercase tracking-[0.2em] text-gold-300">
+          Age-restricted section
         </p>
-        <h2 className="mt-2 text-2xl font-semibold text-zinc-950">
-          Confirm you are 18+
+        <h2
+          id="agegate-title"
+          className="mt-2 text-2xl font-black tracking-tight text-ivory"
+        >
+          Please confirm you are 18 or older
         </h2>
-        <p className="mt-3 text-sm leading-6 text-zinc-600">
-          Some PAANX products are available only to adults. Restricted categories
-          include {restrictedCategories.join(", ")}.
+        <p className="mt-3 text-sm leading-6 text-ivory/70">
+          A few PAANX categories are available to adults only. Restricted
+          categories include {restrictedCategories.join(", ")}. Your confirmation
+          is stored on this device only.
         </p>
-        <div className="mt-5 grid grid-cols-2 gap-3">
+        <div className="mt-6 grid grid-cols-2 gap-3">
           <Link
             href="/"
-            className="rounded-md border border-zinc-200 px-4 py-3 text-center text-sm font-semibold text-zinc-800"
+            className="rounded-[4px] border border-gold-400/30 px-4 py-3 text-center text-sm font-semibold text-ivory/80 transition hover:bg-white/5"
           >
-            Leave
+            Not now
           </Link>
           <button
             type="button"
             onClick={confirmAge}
-            className="rounded-md bg-emerald-900 px-4 py-3 text-sm font-semibold text-white"
+            className="btn-gold rounded-[4px] px-4 py-3 text-sm font-bold"
           >
             I am 18+
           </button>

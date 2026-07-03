@@ -12,14 +12,16 @@ export default function CartPage() {
 
   if (lines.length === 0) {
     return (
-      <section className="rounded-lg border border-zinc-200 bg-white p-8 text-center">
-        <h1 className="text-3xl font-black text-emerald-950">Your cart is empty</h1>
-        <p className="mt-3 text-sm text-zinc-600">
+      <section className="rounded-[4px] border border-gold-200/10 glass p-10 text-center">
+        <h1 className="font-display text-4xl font-black tracking-tight text-gold-100">
+          Your cart is empty
+        </h1>
+        <p className="mt-3 text-sm text-gold-200/65">
           Add paan kits, ingredients, and essentials to begin an order.
         </p>
         <Link
           href="/"
-          className="mt-6 inline-flex h-11 items-center justify-center rounded-md bg-emerald-900 px-5 text-sm font-bold text-white"
+          className="btn-royal mt-6 inline-flex h-11 items-center justify-center rounded-[4px] px-6 text-sm font-bold"
         >
           Shop PAANX
         </Link>
@@ -30,9 +32,9 @@ export default function CartPage() {
   return (
     <div className="grid gap-5 lg:grid-cols-[1fr_360px]">
       <section className="space-y-3">
-        <h1 className="text-3xl font-black text-emerald-950">Cart</h1>
+        <h1 className="font-display text-4xl font-black tracking-tight text-gold-100">Cart</h1>
         {hasRestrictedItem ? (
-          <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm font-semibold text-amber-900">
+          <div className="rounded-[4px] border border-gold-400/40 bg-royal-700/40 p-4 text-sm font-semibold text-gold-100">
             Your cart contains 18+ restricted items. Age confirmation may be
             required before delivery.
           </div>
@@ -41,21 +43,21 @@ export default function CartPage() {
           {lines.map(({ product, quantity }) => (
             <article
               key={product.id}
-              className="grid grid-cols-[88px_1fr] gap-3 rounded-lg border border-zinc-200 bg-white p-3"
+              className="grid grid-cols-[88px_1fr] gap-3 rounded-[4px] border border-gold-200/10 glass p-3"
             >
-              <div className="aspect-square overflow-hidden rounded-md border border-zinc-100">
+              <div className="aspect-square overflow-hidden rounded-[4px] border border-gold-200/10 bg-gold-200/[0.05]">
                 <ProductImage product={product} />
               </div>
               <div className="min-w-0">
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <p className="text-xs font-semibold uppercase tracking-[0.14em] text-zinc-500">
+                    <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-gold-500">
                       {product.brand}
                     </p>
-                    <h2 className="mt-1 text-sm font-bold text-zinc-950">
+                    <h2 className="mt-1 text-sm font-bold text-gold-100">
                       {product.name}
                     </h2>
-                    <p className="mt-1 text-xs text-zinc-500">
+                    <p className="mt-1 text-xs text-gold-500">
                       {product.packSize}
                       {product.isRestricted ? " · 18+" : ""}
                     </p>
@@ -63,14 +65,14 @@ export default function CartPage() {
                   <button
                     type="button"
                     onClick={() => removeItem(product.id)}
-                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-zinc-200 text-zinc-500"
+                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[4px] border border-gold-200/12 bg-gold-200/[0.06] text-gold-300 transition hover:border-gold-500/50 hover:text-gold-100"
                     aria-label={`Remove ${product.name}`}
                   >
                     <Trash2 size={16} aria-hidden />
                   </button>
                 </div>
                 <div className="mt-3 flex items-center justify-between">
-                  <div className="flex items-center rounded-md border border-zinc-200">
+                  <div className="flex items-center rounded-[4px] border border-gold-200/12 bg-gold-200/[0.06]">
                     <button
                       type="button"
                       onClick={() => updateQuantity(product.id, quantity - 1)}
@@ -91,7 +93,7 @@ export default function CartPage() {
                       <Plus size={15} aria-hidden />
                     </button>
                   </div>
-                  <strong className="text-sm text-emerald-950">
+                  <strong className="text-sm font-black text-gold-100 tabular-nums">
                     {formatPrice(product.price * quantity)}
                   </strong>
                 </div>
@@ -100,18 +102,22 @@ export default function CartPage() {
           ))}
         </div>
       </section>
-      <aside className="h-fit rounded-lg border border-zinc-200 bg-white p-4">
-        <h2 className="text-lg font-bold text-zinc-950">Order Summary</h2>
+      <aside className="h-fit rounded-[4px] border border-gold-200/10 glass p-5 lg:sticky lg:top-24">
+        <h2 className="font-display text-xl font-black tracking-tight text-gold-100">
+          Order Summary
+        </h2>
         <div className="mt-4 flex items-center justify-between text-sm">
-          <span className="text-zinc-600">Subtotal</span>
-          <strong>{formatPrice(subtotal)}</strong>
+          <span className="text-gold-200/65">Subtotal</span>
+          <strong className="tabular-nums text-gold-100">
+            {formatPrice(subtotal)}
+          </strong>
         </div>
-        <p className="mt-2 text-xs leading-5 text-zinc-500">
+        <p className="mt-2 text-xs leading-5 text-gold-500">
           Delivery charges and final availability can be confirmed on WhatsApp.
         </p>
         <Link
           href="/checkout"
-          className="mt-5 flex h-12 items-center justify-center rounded-md bg-emerald-900 text-sm font-bold text-white"
+          className="btn-royal mt-5 flex h-12 items-center justify-center rounded-[4px] text-sm font-bold"
         >
           Checkout
         </Link>

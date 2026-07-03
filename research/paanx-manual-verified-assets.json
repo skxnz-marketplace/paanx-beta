@@ -1,0 +1,40 @@
+[
+  {
+    "slugs": [
+      "sprite-750ml",
+      "sprite-can-300ml"
+    ],
+    "image": "/products/beverages/sprite-official.png",
+    "sourceUrl": "https://www.coca-cola.com/in/en/brands/sprite",
+    "sourceName": "Coca-Cola India",
+    "imageSourceUrl": "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/sprite/Sprite-234x700.png"
+  },
+  {
+    "slugs": [
+      "fanta-750ml"
+    ],
+    "image": "/products/beverages/fanta-official.png",
+    "sourceUrl": "https://www.coca-cola.com/in/en/brands/fanta",
+    "sourceName": "Coca-Cola India",
+    "imageSourceUrl": "https://www.coca-cola.com/content/dam/onexp/in/en/brands/fanta/fanta-prod-desktop.png"
+  },
+  {
+    "slugs": [
+      "limca-750ml"
+    ],
+    "image": "/products/beverages/limca-official.jpg",
+    "sourceUrl": "https://www.coca-cola.com/in/en/brands/limca",
+    "sourceName": "Coca-Cola India",
+    "imageSourceUrl": "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/limca/limca%20new%20bottle%20desktop.jpg"
+  },
+  {
+    "slugs": [
+      "maaza-600ml",
+      "maaza-250ml"
+    ],
+    "image": "/products/beverages/maaza-official.jpg",
+    "sourceUrl": "https://www.coca-cola.com/in/en/brands/maaza",
+    "sourceName": "Coca-Cola India",
+    "imageSourceUrl": "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/maaza/maaza-bottles/maaza_packshot_1100x1100.jpg"
+  }
+]
