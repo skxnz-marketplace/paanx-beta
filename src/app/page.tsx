@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import CategoryRail from "@/components/CategoryRail";
+import Signature from "@/components/brand/Signature";
 import ProductGrid from "@/components/ProductGrid";
 import Reveal from "@/components/Reveal";
 import TrustStrip from "@/components/TrustStrip";
@@ -80,6 +81,7 @@ export default function Home() {
             <p className="font-display mt-2 text-xl font-medium tracking-tight text-gold-200/85 md:text-3xl">
               The paan lounge, delivered.
             </p>
+            <Signature className="mt-3 block text-2xl md:text-4xl" />
             <p className="mt-5 max-w-xl text-base leading-7 text-gold-200/70">
               Curated paan-shop essentials, snacks, drinks and grown-up
               favourites. Fast local ordering. Age-aware checkout.

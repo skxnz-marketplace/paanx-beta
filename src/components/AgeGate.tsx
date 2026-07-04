@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ShieldCheck } from "lucide-react";
 import PaanxLogo from "@/components/brand/PaanxLogo";
+import Signature from "@/components/brand/Signature";
 import { usePathname } from "next/navigation";
 import { useMemo, useState } from "react";
 import {
@@ -55,8 +56,11 @@ export default function AgeGate() {
         aria-labelledby="agegate-title"
         className="glass-royal animate-rise w-full rounded-[4px] p-6 text-ivory sm:max-w-md"
       >
-        <div className="mb-5 flex items-center justify-between">
-          <PaanxLogo variant="mark" />
+        <div className="mb-5 flex items-start justify-between">
+          <span className="flex flex-col">
+            <PaanxLogo variant="mark" />
+            <Signature className="mt-1 text-[15px]" />
+          </span>
           <span className="flex h-11 w-11 items-center justify-center rounded-[4px] bg-white/10 text-gold-200 ring-1 ring-gold-400/30">
             <ShieldCheck size={22} aria-hidden />
           </span>

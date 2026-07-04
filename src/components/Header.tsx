@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ShoppingBag } from "lucide-react";
 import PaanxLogo from "@/components/brand/PaanxLogo";
+import Signature from "@/components/brand/Signature";
 import { useCart } from "@/components/CartProvider";
 import SearchInput from "@/components/SearchInput";
 
@@ -32,6 +33,7 @@ export default function Header() {
               <span className="h-px w-4 bg-gold-500/60" />
               Delhi NCR · Beta
             </span>
+            <Signature className="mt-0.5 block text-[15px]" />
           </Link>
           <div className="hidden flex-1 md:block">
             <SearchInput compact />

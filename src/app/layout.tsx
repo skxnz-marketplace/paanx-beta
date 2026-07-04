@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo, Geist } from "next/font/google";
+import { Archivo, Geist, Pinyon_Script } from "next/font/google";
 import AgeGate from "@/components/AgeGate";
 import BottomNav from "@/components/BottomNav";
 import { CartProvider } from "@/components/CartProvider";
@@ -20,6 +20,14 @@ const archivo = Archivo({
   subsets: ["latin"],
   display: "swap",
   weight: ["500", "600", "700", "800"],
+});
+
+// Elegant curvy script — brand signature only.
+const pinyon = Pinyon_Script({
+  variable: "--font-script",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -55,7 +63,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geist.variable} ${archivo.variable} antialiased`}
+      className={`${geist.variable} ${archivo.variable} ${pinyon.variable} antialiased`}
     >
       <body>
         <CartProvider>

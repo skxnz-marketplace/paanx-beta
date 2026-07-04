@@ -69,6 +69,13 @@ body {
   font-optical-sizing: auto;
 }
 
+/* Elegant curvy script — brand signature */
+.font-script {
+  font-family: var(--font-script), "Segoe Script", cursive;
+  /* deep royal gold */
+  color: #c29b3f;
+}
+
 button,
 a,
 input,
